@@ -1,10 +1,13 @@
-# OpenClaw Railway Template (1‑click deploy)
+# Venice_Clawbot — OpenClaw on Railway (1‑click deploy)
 
-This repo packages **OpenClaw** for Railway with a small **/setup** web wizard so users can deploy and onboard **without running any commands**.
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mIbVJU)
+
+This repo packages **OpenClaw** for Railway with a small **/setup** web wizard so users can deploy and onboard **without running any commands**. It comes pre-configured with **Venice.ai** as the AI provider — a privacy-first, OpenAI-compatible API.
 
 ## What you get
 
 - **OpenClaw Gateway + Control UI** (served at `/` and `/openclaw`)
+- **Venice.ai** as the default AI provider (privacy-first, OpenAI-compatible)
 - A friendly **Setup Wizard** at `/setup` (protected by a password)
 - Persistent state via **Railway Volume** (so config/credentials/memory survive redeploys)
 - One-click **Export backup** (so users can migrate off Railway later)
@@ -186,4 +189,4 @@ docker run --rm -p 8080:8080 \
 
   ![Jake Cooper endorsement tweet screenshot](assets/railway-ceo-endorsement.jpg)
 
-- Originally created by **Vignesh N (@vignesh07)**. This fork is maintained by [Ashe-Oro](https://github.com/Ashe-Oro).
+- Maintained by [Ashe-Oro](https://github.com/Ashe-Oro)
