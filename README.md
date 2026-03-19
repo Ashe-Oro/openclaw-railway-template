@@ -50,7 +50,7 @@ Then:
 
 ## Support / community
 
-- GitHub Issues: https://github.com/vignesh07/clawdbot-railway-template/issues
+- GitHub Issues: https://github.com/Ashe-Oro/openclaw-railway-template/issues
 - Discord: https://discord.com/invite/clawd
 
 If you’re filing a bug, please include the output of:
@@ -160,7 +160,7 @@ Recommendations:
 ## Local smoke test
 
 ```bash
-docker build -t clawdbot-railway-template .
+docker build -t openclaw-railway-template .
 
 docker run --rm -p 8080:8080 \
   -e PORT=8080 \
@@ -168,7 +168,7 @@ docker run --rm -p 8080:8080 \
   -e OPENCLAW_STATE_DIR=/data/.openclaw \
   -e OPENCLAW_WORKSPACE_DIR=/data/workspace \
   -v $(pwd)/.tmpdata:/data \
-  clawdbot-railway-template
+  openclaw-railway-template
 
 # open http://localhost:8080/setup (password: test)
 ```
@@ -186,7 +186,4 @@ docker run --rm -p 8080:8080 \
 
   ![Jake Cooper endorsement tweet screenshot](assets/railway-ceo-endorsement.jpg)
 
-- Created and maintained by **Vignesh N (@vignesh07)**
-- **1800+ deploys on Railway and counting** [Link to template on Railway](https://railway.com/deploy/clawdbot-railway-template)
-
-![Railway template deploy count](assets/railway-deploys.jpg)
+- Originally created by **Vignesh N (@vignesh07)**. This fork is maintained by [Ashe-Oro](https://github.com/Ashe-Oro).
