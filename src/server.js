@@ -575,6 +575,9 @@ const AUTH_GROUPS = [
   ]},
   { value: "opencode-zen", label: "OpenCode Zen", hint: "API key", options: [
     { value: "opencode-zen", label: "OpenCode Zen (multi-model proxy)" }
+  ]},
+  { value: "venice", label: "Venice.ai", hint: "Privacy-first AI, API key", options: [
+    { value: "venice-api-key", label: "Venice.ai API key" }
   ]}
 ];
 
@@ -636,6 +639,7 @@ function buildOnboardArgs(payload) {
       "minimax-api-lightning": "--minimax-api-key",
       "synthetic-api-key": "--synthetic-api-key",
       "opencode-zen": "--opencode-zen-api-key",
+      "venice-api-key": "--venice-api-key",
     };
 
     const flag = map[payload.authChoice];
