@@ -1,6 +1,6 @@
 # Venice_Clawbot — OpenClaw on Railway (1‑click deploy)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mIbVJU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/veniceclawbot)
 
 This repo packages **OpenClaw** for Railway with a small **/setup** web wizard so users can deploy and onboard **without running any commands**. It comes pre-configured with **Venice.ai** as the AI provider — a privacy-first, OpenAI-compatible API.
 
